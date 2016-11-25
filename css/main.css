@@ -5,6 +5,10 @@ body {
     color: #000;
 }
 
+input {
+  color: #fff;
+}
+
 iframe {
   border: 0;
   margin-left: 0px;

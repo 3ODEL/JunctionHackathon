@@ -26,10 +26,6 @@ div.fields {
     padding-top: 20px;
 }
 
-.active {
-    background-color: #00ff85;
-}
-
 .toprow {
     overflow-x: scroll;
     margin-top: 10px;

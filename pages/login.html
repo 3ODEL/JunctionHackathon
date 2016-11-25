@@ -13,25 +13,28 @@
 <div class="row page">
     <form class="col s12">
         <div class="row logo">
-          <img src="img/whitelogo.png" alt="3ODEL" style="max-width: 300px; width: 100%;"/>
-        </div>
-        <div class="row">
-            <div class="fields">
-                <div class="input-field col s12">
-                    <input id="email" type="email" class="validate" ng-model="user.email">
-                    <label for="email">Email</label>
+          <div class="col s4">
+            <img src="img/whitelogo.png" alt="3ODEL" style="max-width: 300px; width: 100%;"/>
+          </div>
+          <div class="col s4">
+            <div class="row">
+                <div class="fields">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate" ng-model="user.email">
+                        <label for="email">Email</label>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="fields">
-                <div class="input-field col s12">
-                    <input id="password" type="password" class="validate" ng-model="user.password">
-                    <label for="password">Password</label>
+            <div class="row">
+                <div class="fields">
+                    <div class="input-field col s12">
+                        <input id="password" type="password" class="validate" ng-model="user.password">
+                        <label for="password">Password</label>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
+          </div>
+          <div class="col s4">
             <div class="fields">
                 <div class="input-field col s6">
                     <a href="#/home" class="waves-effect waves-light btn loginScreen" ng-click="login()">Login</a>
@@ -40,6 +43,7 @@
                     <a href="#/signup" class="waves-effect waves-light btn loginScreen">Sign Up</a>
                 </div>
             </div>
+          </div>
         </div>
     </form>
 </div>

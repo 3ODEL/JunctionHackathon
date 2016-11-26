@@ -23,4 +23,8 @@ io.on('connection', function (socket) {
 
 });
 
+app.get('/hello', function(req, res) {
+  res.send('hello world')
+});
+
 app.listen(port);

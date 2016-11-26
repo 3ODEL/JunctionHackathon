@@ -1,0 +1,24 @@
+{
+  "name": "junctionhackathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EliasLi/JunctionHackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EliasLi/JunctionHackathon/issues"
+  },
+  "homepage": "https://github.com/EliasLi/JunctionHackathon#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.79.0",
+    "socket.io": "^1.6.0"
+  }
+}
